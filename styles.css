@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.image, .logo {
+    max-height: 2.5rem;
+}
+
+header {
+    background-color: #000000;
+    padding: 0 5.5rem;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    margin-left: auto;
+    line-height: 5rem;
+    font-weight: bold;
+}
+
+.nav_a {
+    padding: 0 0.8rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#bar {
+    padding: 0 0.8rem;
+    color: #FFFFFF;
+}
+
+.showcase {
+    height: 100vh;
+    background: url("./images/showcase.jpg") center center/cover;
+    background-color: #FBC000;
+
+    display: flex;
+    flex-direction: column;
+
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+}
+
+h1 {
+    width: 47.125rem;
+    font-size: 7.55rem;
+    line-height: 6.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.container p {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.download {
+    font-size: 0.875rem;
+    font-weight: 700;
+    border-radius: 31.25rem;
+    background-color: #1ED760;
+    border: none;
+    cursor: pointer;
+    padding: 0.875rem 2rem;
+}
+
+.container {
+    max-height: 21.25rem;
+}
+
+.download:hover {
+    background-color: #43E57D;
+    font-size: 0.925rem;
+    padding: 0.925rem 2.05rem;
+}
+
+footer {
+    background-color: #000000;
+    padding: 5rem 5.5rem 3.125rem 5.5rem;
+}
+
+.footer-content {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    margin: 0 60px;
+}
+
+li {
+    margin: 25px 0;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer .title {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.8rem;
+    margin-top: 1.25rem;
+}
+
+.social {
+    height: 54px;
+    width: 54px;
+    background-color: #222326;
+    border: none;
+    border-radius: 50%;
+}
+
+.social i {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+.social_buttons {
+    margin: 0 15px 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.social_buttons li {
+    margin-left: 1rem;
+}
+
+.nav_a:hover, footer a:hover, i:hover, .country a:hover, .more_info a:hover {
+    color: #1ED760;
+    cursor: pointer;
+}
+
+.country {
+    text-align: right;
+    margin-top: 64px;
+}
+
+.more_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.more_info a {
+    padding: 0 0 0 15px;
+    line-height: 16px;
+}
+
+.country a, .more_info a, .more_info p {
+    font-size: 12px;
+    color: #919496;
+}
+
+.country svg {
+    margin: 0 8px 0 0;
+}
